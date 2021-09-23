@@ -1,4 +1,4 @@
-###(Currently I'm testing new features. So, code is little messy.)
+
 
 # OlamDictionaryBot
 

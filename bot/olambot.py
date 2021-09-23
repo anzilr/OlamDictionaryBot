@@ -1,4 +1,5 @@
 from logging import root
+from datetime import datetime
 import os
 from pyrogram import *
 from sample_cofig import (
@@ -38,3 +39,8 @@ class OlamBot(Client):
 
     async def stop(self, *arg):
         await super().stop()
+        
+date1 = datetime.now()
+date = date1.strftime('%d/%m/%Y')
+dt = (f"<i>(Last updated on {date})</i>\n<b>Press Olam button 👇🏻 for web results.</b>")
+

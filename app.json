@@ -1,0 +1,45 @@
+{
+    "name": "Olam Dictionary Bot",
+    "description": "You can search meaning of English words in Olam database using this bot.",
+    "keywords": [
+      "telegram",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline",
+      "dictionary"
+    ],
+    "website": "https://github.com/anzilr/OlamTelegramBot",
+    "repository": "https://github.com/anzilr/OlamTelegramBot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "value": ""
+        },
+ 
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        }
+    },    
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

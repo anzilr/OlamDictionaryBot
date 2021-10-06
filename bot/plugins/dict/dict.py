@@ -27,7 +27,7 @@ async def malayalamDict(client, msg):
             dl, wrd = wordin.split("/olam ")
             sqry = "+".join(wrd.split())
             olamurl = f"https://olam.in/Dictionary/en_ml/{sqry}"
-            if not re.match("^[a-z A-Z.'!]*$", wrd):
+            if not re.match("^[a-z A-Z.'!-]*$", wrd):
                 await msg.reply("Oops! Doesn't work that way 🙂.",
                                 reply_markup=InlineKeyboardMarkup(
                                     [
@@ -38,11 +38,13 @@ async def malayalamDict(client, msg):
                                 )
 
             else:
+                if wrd == [".", ",", "'", "!", "-"]:
+                    return
                 word = malayalamDictBot(wrd)
                 w = f"\n".join(word)
                 await client.send_message(
                     chat_id=msg.chat.id,
-                    text=f" {wrd.capitalize()}\n {w}\n \n{dt}",
+                    text=f" {wrd.capitalize()}\n {w}\n \n{dt2}",
                     parse_mode="html",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -59,14 +61,16 @@ async def malayalamDict(client, msg):
             wrd = wordin
             sqry = "+".join(wrd.split())
             olamurl = f"https://olam.in/Dictionary/en_ml/{sqry}"
-            if not re.match("^[a-z A-Z.'!]*$", wrd):
+            if not re.match("^[a-z A-Z.'!-]*$", wrd):
+                return
+            if wrd == [".", ",", "'", "!", "-"]:
                 return
             else:
                 word = malayalamDictBot(wrd)
                 w = f"\n".join(word)
                 await client.send_message(
                     chat_id=msg.chat.id,
-                    text=f" {wrd.capitalize()}\n {w}\n \n{dt}",
+                    text=f" {wrd.capitalize()}\n {w}\n \n{dt2}",
                     parse_mode="html",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -107,11 +111,13 @@ async def malayalamDict(client, msg):
                                 )
                                 )
             else:
+                if wrd == [".", ",", "'", "!", "-"]:
+                    return
                 word = malayalamDictBot(wrd)
                 w = f"\n".join(word)
                 await client.send_message(
                     chat_id=msg.chat.id,
-                    text=f" {wrd.capitalize()}\n {w}\n \n{dt}",
+                    text=f" {wrd.capitalize()}\n {w}\n \n{dt2}",
                     parse_mode="html",
                     reply_markup=InlineKeyboardMarkup(
                         [

@@ -2,7 +2,7 @@
 
 # OlamDictionaryBot
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anzilr&repo=OlamDictionaryBot&theme=flag-india)](https://github.com/anzilr/OlamDictionaryBot)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anzilr&repo=OlamDictionaryBot&theme=github_dark)](https://github.com/anzilr/OlamDictionaryBot)
 
 <a href="https://t.me/olamdictionarybot" ><img src="https://img.shields.io/badge/Test%20Here-Olam%20Dictionary%20Bot-blue.svg?logo=telegram" /> </a>
 

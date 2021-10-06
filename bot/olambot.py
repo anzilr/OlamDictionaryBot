@@ -22,8 +22,7 @@ class OlamBot(Client):
             bot_token=BOT_TOKEN,
             plugins={
                 "root": "bot/plugins"
-            },
-            parse_mode="html"
+            }
         )
 
     async def start(self):
@@ -43,4 +42,5 @@ class OlamBot(Client):
 date1 = datetime.now()
 date = date1.strftime('%d/%m/%Y')
 dt = (f"<i>(Last updated on {date})</i>\n<b>Press Olam button 👇🏻 for web results.</b>")
+dt2 = (f"<i>(Last updated on {date})</i>\n<b>Use inline mode for better results.</b>")
 

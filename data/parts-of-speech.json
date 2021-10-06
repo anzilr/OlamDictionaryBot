@@ -1,74 +1,74 @@
 {
   "n": {
-    "en": "Noun",
+    "en": "(Noun)",
     "ml": "à´¨à´¾à´®à´‚"
   },
-  " ": {
-    "en": " ",
-    "ml": " "
+  "": {
+    "en": "",
+    "ml": ""
   },
   "v": {
-    "en": "Verb",
+    "en": "(Verb)",
     "ml": "à´•àµà´°à´¿à´¯"
   },
     "-": {
-    "en": " ",
-    "ml": " "
+    "en": "",
+    "ml": ""
   },
     "phr": {
-    "en": "Phrase",
-    "ml": "ഉപവാക്യം"
+    "en": "(Phrase)",
+    "ml": "(ഉപവാക്യം)"
   },
   "a": {
-    "en": "Adjective",
+    "en": "(Adjective)",
     "ml": "à´µà´¿à´¶àµ‡à´·à´£à´‚"
   },
   "adv": {
-    "en": "Adverb",
+    "en": "(Adverb)",
     "ml": "à´•àµà´°à´¿à´¯à´¾à´µà´¿à´¶àµ‡à´·à´£à´‚"
   },
   "pron": {
-    "en": "Pronoun",
+    "en": "(Pronoun)",
     "ml": "à´¸à´°àµâ€à´µàµà´µà´¨à´¾à´®à´‚"
   },
   "propn": {
-    "en": "Proper noun",
+    "en": "(Proper noun)",
     "ml": "à´¸à´‚à´œàµà´žà´¾à´¨à´¾à´®à´‚"
   },
   "phrv": {
-    "en": "Phrasal verb",
+    "en": "(Phrasal verb)",
     "ml": "à´‰à´ªà´µà´¾à´•àµà´¯ à´•àµà´°à´¿à´¯"
   },
   "conj": {
-    "en": "Conjunction",
+    "en": "(Conjunction)",
     "ml": "à´…à´µàµà´¯à´¯à´‚"
   },
   "interj": {
-    "en": "Interjection",
+    "en": "(Interjection)",
     "ml": "à´µàµà´¯à´¾à´•àµà´·àµ‡à´ªà´•à´‚"
   },
   "prep": {
-    "en": "Preposition",
+    "en": "(Preposition)",
     "ml": "à´‰à´ªà´¸à´°àµâ€à´—à´‚"
   },
   "pfx": {
-    "en": "Prefix",
+    "en": "(Prefix)",
     "ml": "à´ªàµ‚àµ¼à´µàµà´µà´ªàµà´°à´¤àµà´¯à´¯à´‚"
   },
   "sfx": {
-    "en": "Suffix",
+    "en": "(Suffix)",
     "ml": "à´ªàµà´°à´¤àµà´¯à´¯à´‚"
   },
   "idm": {
-    "en": "Idiom",
+    "en": "(Idiom)",
     "ml": "à´­à´¾à´·à´¾à´¶àµˆà´²à´¿"
   },
   "abbr": {
-    "en": "Abbreviation",
+    "en": "(Abbreviation)",
     "ml": "à´¸à´‚à´•àµà´·àµ‡à´ªà´‚"
   },
   "auxv": {
-    "en": "Auxiliary verb",
+    "en": "(Auxiliary verb)",
     "ml": "à´ªàµ‚à´°à´•à´•àµƒà´¤à´¿"
   }
 }

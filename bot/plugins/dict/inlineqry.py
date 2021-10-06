@@ -1,6 +1,7 @@
 from bot.olambot import *
 from bot.helpers.malayalam_dict import *
 from pyrogram.types import *
+from langdetect import detect
 
 @OlamBot.on_inline_query()
 async def search(client, inline_query):
@@ -12,26 +13,29 @@ async def search(client, inline_query):
 
     else:
         print(query) #print debuging
-        eng_word, dictionary = inline_dict1(query) #get english word list from csv
+        dlang = detect(query)
+        words, dictionary = inline_dict1(query, dlang) #get english/malayalam word list from csv
         k, r = 0, 0
         answers = []
         results = []
-        #fetching definitions of each word in eng_word from dictionary
-        for j in range(len(eng_word)):
-            word = (eng_word[k])
+        #print(words)
+        #fetching definitions of each word in words from dictionary
+        for j in range(len(words)):
+            word = (words[k])
             mal_definitions = inline_dict2(word, dictionary)
             results.append(mal_definitions)
             k += 1
+        #print(results)
         #converting each definitions in results as seperate inline results
         for result in range(len(results)):
             definitions = (results[r])
-            title = (eng_word[r])
+            title = (words[r])
             search_word = "+".join(title.split())
-            olamurl = f"https://olam.in/Dictionary/en_ml/{search_word}"
+            olamurl = f"https://olam.in/Dictionary/en_ml/{search_word}" if dlang != "ml" else "https://olam.in"
             answers.append(
                 InlineQueryResultArticle(
                 title=title,
-                input_message_content=InputTextMessageContent(f" <b>{title}</b>\n {definitions}\n \n{dt}"),
+                input_message_content=InputTextMessageContent(f"{definitions}\n \n{dt}"),
                 description=f"{definitions}",
                 thumb_url="https://i.imgur.com/iIYuBSG.jpeg",
                 reply_markup=InlineKeyboardMarkup(

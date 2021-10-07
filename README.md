@@ -2,6 +2,7 @@
 
 # OlamDictionaryBot
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/434d686a70c541feb15feb93e69c6e5c)](https://app.codacy.com/gh/anzilr/OlamDictionaryBot?utm_source=github.com&utm_medium=referral&utm_content=anzilr/OlamDictionaryBot&utm_campaign=Badge_Grade_Settings)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anzilr&repo=OlamDictionaryBot&theme=github_dark)](https://github.com/anzilr/OlamDictionaryBot)
 
 <a href="https://t.me/olamdictionarybot" ><img src="https://img.shields.io/badge/Test%20Here-Olam%20Dictionary%20Bot-blue.svg?logo=telegram" /> </a>

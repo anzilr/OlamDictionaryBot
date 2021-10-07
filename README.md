@@ -1,10 +1,13 @@
 
 
-# OlamDictionaryBot
+# OlamDictionaryBot <a href="https://t.me/olamdictionarybot" ><img src="https://img.shields.io/badge/Test%20Here-Olam%20Dictionary%20Bot-blue.svg?logo=telegram" /> </a>
+
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a38dee4bb48c41d7b8254336670b4d78)](https://www.codacy.com/gh/anzilr/OlamDictionaryBot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=anzilr/OlamDictionaryBot&amp;utm_campaign=Badge_Grade) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/anzilr/OlamDictionaryBot/graphs/commit-activity) [![GitHub latest commit](https://badgen.net/github/last-commit/anzilr/OlamDictionaryBot/main)](https://GitHub.com/anzilr/OlamDictionaryBot/commit/main) [![GitHub license](https://badgen.net/github/license/anzilr/OlamDictionaryBot)](https://github.com/anzilr/OlamDictionaryBot/blob/master/LICENSE)
+
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anzilr&repo=OlamDictionaryBot&theme=github_dark)](https://github.com/anzilr/OlamDictionaryBot)
 
-<a href="https://t.me/olamdictionarybot" ><img src="https://img.shields.io/badge/Test%20Here-Olam%20Dictionary%20Bot-blue.svg?logo=telegram" /> </a>
 
 #### 1. Clone the project repository
 

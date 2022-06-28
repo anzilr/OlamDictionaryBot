@@ -58,6 +58,8 @@ python3 -m bot
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anzilr/OlamDictionaryBot/)
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/BHkPId?referralCode=XgYS50)
+
 ## Credits, and Thanks to
 
 * [Olam](https://olam.in/open/) English-Malayalam dictionary dataset

@@ -45,7 +45,7 @@ async def malayalamDict(client, msg):
                 await client.send_message(
                     chat_id=msg.chat.id,
                     text=f" {wrd.capitalize()}\n {w}\n \n{dt2}",
-                    parse_mode="html",
+                    #parse_mode="html",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(text="🔍 Search", switch_inline_query_current_chat=""),
@@ -71,7 +71,7 @@ async def malayalamDict(client, msg):
                 await client.send_message(
                     chat_id=msg.chat.id,
                     text=f" {wrd.capitalize()}\n {w}\n \n{dt2}",
-                    parse_mode="html",
+                    #parse_mode="html",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(text="🔍 Search", switch_inline_query_current_chat=""),
@@ -118,7 +118,7 @@ async def malayalamDict(client, msg):
                 await client.send_message(
                     chat_id=msg.chat.id,
                     text=f" {wrd.capitalize()}\n {w}\n \n{dt2}",
-                    parse_mode="html",
+                    #parse_mode="html",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(text="🔍 Search", switch_inline_query_current_chat=""),

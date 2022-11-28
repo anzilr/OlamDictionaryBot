@@ -1,0 +1,37 @@
+{
+  "name": "olamdictionarybot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "python3 -m bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzilr/OlamDictionaryBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anzilr/OlamDictionaryBot/issues"
+  },
+  "homepage": "https://github.com/anzilr/OlamDictionaryBot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+  "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "value": ""
+        },
+ 
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        }
+    }  
+}

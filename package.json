@@ -18,7 +18,7 @@
   "homepage": "https://github.com/anzilr/OlamDictionaryBot#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
   "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
